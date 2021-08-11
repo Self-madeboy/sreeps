@@ -1,4 +1,5 @@
 interface CreepMemory {
-    role: string;
-    building?: boolean;
+    // 要存放到的目标建筑
+    targetId?: string;
+    sourceId?: string;
 }
